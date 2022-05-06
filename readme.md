@@ -9,36 +9,36 @@ as base.S -o base.o
 
 ld base.o -o base
 
-make
+make  
 make clean
 
 
-run gdb:
+run gdb:  
 gdb ./base
 
-enable gui interface:
+enable gui interface:  
 (gdb) tui enable
 
-show source code:
+show source code:  
 (gdb) layout src
 
-show asm code:
+show asm code:  
 (gdb) layout asm
 (gdb) layout regs
 
-show layout commands:
+show layout commands:  
 (gdb) layout
 
-set breakpoint at _start:
+set breakpoint at _start:  
 (gdb) b _start
 
-run debugger:
+run debugger:  
 (gdb) r
 
-next step:
+next step:  
 step
 
-to exit:
+to exit:  
 q
 
 
