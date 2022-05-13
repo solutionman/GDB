@@ -9,6 +9,9 @@ as base.S -o base.o
 
 ld base.o -o base
 
+./base  
+
+
 complile with make:  
 make  
 clean with make:  
