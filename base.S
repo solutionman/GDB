@@ -4,11 +4,6 @@ msg:
 	.ascii "Some text here\n"
 	.set len, . - msg
 
-
-
-
-
-
 .text
 
 .globl _start
@@ -26,9 +21,5 @@ print:
 	mov $len, %edx
 	int $0x80
 	ret
-
-
-
-
 
 
